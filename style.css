@@ -132,3 +132,84 @@ margin-right: 325px;
 margin-left: 200px;
 margin-top: 100px;
 }
+/*party location container*/
+.party-container{
+  width: 1320px;
+  height: 420px;
+  border-radius: 16px;
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+margin-top: 100px;
+font-size: 30px;
+}
+span{
+  color: red;
+}
+#btn{
+  color: rgb(255, 255, 255);
+text-align: center;
+text-transform: uppercase;
+background-color: red;
+padding:10px 30px;
+border-radius: 2px;
+}
+/*coming soon container styles*/
+.coming-soon-container{
+width: 1320px;
+height: 463px;
+margin-top:63px;
+margin: 0 auto;
+display: flex;
+
+}
+.left-coming-container{
+  width:33.3% ;
+  height:463px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mid-coming-container{
+  width:33.3%;
+  height:463px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mid-coming-container img{
+  box-sizing: border-box;
+}
+.right-coming-container{
+  width:33.3%;
+  height:463px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.right-coming-container p{
+  font-size: 16px;
+  line-height: 20px;
+}
+.right-coming-container h1{
+  color: red;
+  font-weight:900;
+}
+.left-coming-container h5{
+  color: red;
+  font-weight: 700;
+}
+.left-coming-container h2{
+font-size:32px;
+font-weight:700;
+line-height: 50px;
+}
+.left-coming-container p{
+font-size: 20px;
+font-weight:300;
+line-height:30px;
+}
