@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+  margin: 0 ;
+  padding: 0;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
+}
+/*banner section styles*/
+.header-container{
+  width: 1320px;
+  margin: 0 auto;
+  min-height: 600px;
+  background-color:rgba(0, 0,0,.50);
+  background-image: url(./images/Banner\ Image.png);
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+.banner-conten{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+
+}
+.banner-conten p{
+  font-size:26px;
+  font-weight: 400;
+}
+.banner-conten h1{
+  font-size: 50px;
+  font-weight: 800;
+}
+/* 65% second section*/
+.second-section-container{
+  width: 802px;
+  height:700px;
+  margin: 0 auto;
+  margin-top: 50px;
+
+}
+.second-section-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.second-section-container-h1{
+font-size: 60px;
+font-weight: 700;
+color: rgb(255, 0, 0);
+}
+.second-section-container-p{
+font-size: 16px;
+font-weight:300;
+color: rgb(255, 0, 0);
+}
+.second-section-container-h3{
+  color:rgb(7, 2, 17);
+  font-weight: 700;
+  font-size: 30px;
+
+}
+.img-container{
+  width: 802px;
+  height: 500px;
+  margin-top: 65px;
+
+}
+.img-container img{
+  height: 100%;
+  width: 100%;
+}
+/*mid night party section syles*/
+.midnight-container{
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 80px;
+  display: flex;
+  background-image:url(./images/Vectorrr.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:rgba(0, 0,0,.40);
+  background-blend-mode: overlay;
+}
+.leftside-container{
+  height: 600px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  
+}
+.rightside-container{
+  height:600px;
+  width:50%;
+}
+.leftside-container h1{
+  font-size: 50px;
+font-weight:700;
+color:#ddd;
+}
+.leftside-container p{
+font-size: 12px;
+font-weight: 300;
+letter-spacing: 0%;
+color: rgba(255, 255, 255, 0.8);
+line-height: 30px;
+letter-spacing: 0%;
+margin-left:100px;
+box-sizing: border-box;
+}
+.leftside-container span{
+  color: rgb(255, 255, 255);
+font-size:16px;
+font-weight:400;
+line-height:14px;
+letter-spacing: 0%;
+text-transform: uppercase;
+margin-right: 325px;
+}
+.rightside-container img{
+margin-left: 200px;
+margin-top: 100px;
+}
